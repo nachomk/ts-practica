@@ -1,5 +1,6 @@
 // ENUMS -->  utiliza datos finitos controlables (dias de la semana, meses del año, estaciones del año, tipos de errores)
-enum ERROR_TYPES {
+// Se recomienda usar CONST para generar menos codigo y depende de la utilizacion del mismo 
+const enum ERROR_TYPES {
     NOT_FOUND = 'notFound',
     UNAUTHORIZED = 'unauthorized',
     FORBIDDEN = 'forbidden'
